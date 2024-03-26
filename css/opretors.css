@@ -1,0 +1,105 @@
+#opretors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+#opretors #arithmetic,
+#opretors #comparison,
+#opretors #logical,
+#opretors #assignment,
+#opretors #bitwise,
+#opretors #ternary {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+#opretors #arithmetic #card,
+#opretors #comparison #card,
+#opretors #logical #card,
+#opretors #assignment #card,
+#opretors #bitwise #card,
+#opretors #ternary #card{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+#opretors #arithmetic #card label,
+#opretors #comparison #card label,
+#opretors #logical #card label,
+#opretors #assignment #card label,
+#opretors #bitwise #card label,
+#opretors #ternary #card label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#opretors #arithmetic #card input,
+#opretors #comparison #card input,
+#opretors #logical #card input,
+#opretors #assignment #card input,
+#opretors #bitwise #card input,
+#opretors #ternary #card input{
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+#opretors #arithmetic #card #operations,
+#opretors #comparison #card #operations,
+#opretors #logical #card #operations,
+#opretors #assignment #card #operations,
+#opretors #bitwise #card #operations,
+#opretors #ternary #card #operations{    
+    margin: 2px;
+}
+
+#opretors #arithmetic #card #operations .opretorsBtn,
+#opretors #comparison #card #operations .opretorsBtn,
+#opretors #logical #card #operations .opretorsBtn,
+#opretors #assignment #card #operations .opretorsBtn,
+#opretors #bitwise #card #operations .opretorsBtn,
+#opretors #ternary #card #operations .opretorsBtn{
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    margin: 2px;
+    border-radius: var(--border-radius);
+}
+
+#opretors #arithmetic #card #operations .opretorsBtn:hover,
+#opretors #comparison #card #operations .opretorsBtn:hover,
+#opretors #logical #card #operations .opretorsBtn:hover,
+#opretors #assignment #card #operations .opretorsBtn:hover,
+#opretors #bitwise #card #operations .opretorsBtn:hover,
+#opretors #ternary #card #operations .opretorsBtn:hover{
+    background-color: #f37a4b;
+}
+
+#opretors #arithmetic #card #operations .opretorsBtn:active,
+#opretors #comparison #card #operations .opretorsBtn:active,
+#opretors #logical #card #operations .opretorsBtn:active,
+#opretors #assignment #card #operations .opretorsBtn:active,
+#opretors #bitwise #card #operations .opretorsBtn:active,
+#opretors #ternary #card #operations .opretorsBtn:active{
+    transform: scale(0.98);
+}
+
+
+hr {
+    border: 1px solid var(--border-color);
+    margin: 1rem 0;
+}

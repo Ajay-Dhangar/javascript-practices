@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operators | JavaScript Practices</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="../../css/opretors.css">
+    <script type="module" src="../../src/index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome To JavaScript Practices</h1>
+      <br />
+      <h3> <a href="../../index.html">Home</a> > Practices for Operators</h3>
+    </header>
+
+    <div id="opretors">
+      <div id="arithmetic">
+        <div id="card">
+          <h2>1. Arithmetic Operations</h2>
+          <hr />
+          <label for="num1">Enter First Number:</label>
+          <input type="number" id="a" />
+          <br />
+          <label for="num2">Enter Second Number:</label>
+          <input type="number" id="b" />
+
+          <div id="operations">
+            <button class="opretorsBtn" id="add" title="Addition Operator">
+              Add
+            </button>
+            <button class="opretorsBtn" id="sub" title="Subtraction Operator">
+              Subtract
+            </button>
+            <button
+              class="opretorsBtn"
+              id="mul"
+              title="Multiplication Operator"
+            >
+              Multiply
+            </button>
+            <button class="opretorsBtn" id="div" title="Division Operator">
+              Divide
+            </button>
+            <button class="opretorsBtn" id="mod" title="Modulus Operator">
+              Modulus
+            </button>
+          </div>
+
+          <hr />
+
+          <h3>Result:</h3>
+
+          <div id="result1"></div>
+        </div>
+      </div>
+
+      <div id="comparison">
+        <div id="card">
+          <h2>2. Comparison Operations</h2>
+          <hr />
+          <label for="num1">Enter First Number:</label>
+          <input type="number" id="c" />
+          <br />
+          <label for="num2">Enter Second Number:</label>
+          <input type="number" id="d" />
+
+          <div id="operations">
+            <button class="opretorsBtn" id="eq" title="Equal Operator">
+              ==
+            </button>
+            <button class="opretorsBtn" id="neq" title="Not Equal Operator">
+              !=
+            </button>
+            <button class="opretorsBtn" id="gt" title="Greater Than Operator">
+              >
+            </button>
+            <button class="opretorsBtn" id="lt" title="Less Than Operator">
+              <
+            </button>
+            <button
+              class="opretorsBtn"
+              id="gte"
+              title="Greater Than or Equal Operator"
+            >
+              >=
+            </button>
+            <button
+              class="opretorsBtn"
+              id="lte"
+              title="Less Than or Equal Operator"
+            >
+              <=
+            </button>
+            <button class="opretorsBtn" id="seq" title="Strict Equal Operator">
+              ===
+            </button>
+            <button
+              class="opretorsBtn"
+              id="sneq"
+              title="Strict Not Equal Operator"
+            >
+              !==
+            </button>
+          </div>
+
+          <hr />
+
+          <h3>Result:</h3>
+
+          <div id="result2"></div>
+        </div>
+      </div>
+
+      <div id="logical">
+        <div id="card">
+          <h2>3. Logical Operations</h2>
+          <hr />
+          <label for="num1">Enter First Number:</label>
+          <input type="number" id="e" />
+          <br />
+          <label for="num2">Enter Second Number:</label>
+          <input type="number" id="f" />
+
+          <div id="operations">
+            <button class="opretorsBtn" id="and" title="Logical AND Operator">
+              AND
+            </button>
+            <button class="opretorsBtn" id="or" title="Logical OR Operator">
+              OR
+            </button>
+            <button class="opretorsBtn" id="not" title="Logical NOT Operator">
+              NOT
+            </button>
+          </div>
+
+          <hr />
+
+          <h3>Result:</h3>
+
+          <div id="result3"></div>
+        </div>
+      </div>
+
+      <div id="assignment">
+        <div id="card">
+          <h2>4. Assignment Operations</h2>
+          <hr />
+          <label for="num1">Enter First Number:</label>
+          <input type="number" id="g" />
+          <br />
+          <label for="num2">Enter Second Number:</label>
+          <input type="number" id="h" />
+
+          <div id="operations">
+            <button class="opretorsBtn" id="as" title="Assignment Operator">
+              =
+            </button>
+            <button
+              class="opretorsBtn"
+              id="addas"
+              title="Addition Assignment Operator"
+            >
+              +=
+            </button>
+            <button
+              class="opretorsBtn"
+              id="subas"
+              title="Subtraction Assignment Operator"
+            >
+              -=
+            </button>
+            <button
+              class="opretorsBtn"
+              id="mulas"
+              title="Multiplication Assignment Operator"
+            >
+              *=
+            </button>
+            <button
+              class="opretorsBtn"
+              id="divas"
+              title="Division Assignment Operator"
+            >
+              /=
+            </button>
+            <button
+              class="opretorsBtn"
+              id="modas"
+              title="Modulus Assignment Operator"
+            >
+              %=
+            </button>
+          </div>
+
+          <hr />
+
+          <h3>Result:</h3>
+
+          <div id="result4"></div>
+        </div>
+      </div>
+
+      <div id="bitwise">
+        <div id="card">
+          <h2>5. Bitwise Operations</h2>
+          <hr />
+          <label for="num1">Enter First Number:</label>
+          <input type="number" id="i" />
+          <br />
+          <label for="num2">Enter Second Number:</label>
+          <input type="number" id="j" />
+
+          <div id="operations">
+            <button class="opretorsBtn" id="andb" title="Bitwise AND Operator">
+              &
+            </button>
+            <button class="opretorsBtn" id="orb" title="Bitwise OR Operator">
+              |
+            </button>
+            <button class="opretorsBtn" id="notb" title="Bitwise NOT Operator">
+              ~
+            </button>
+            <button class="opretorsBtn" id="xorb" title="Bitwise XOR Operator">
+              ^
+            </button>
+            <button class="opretorsBtn" id="left" title="Left Shift Operator">
+              <<
+            </button>
+            <button class="opretorsBtn" id="right" title="Right Shift Operator">
+              >>
+            </button>
+            <button
+              class="opretorsBtn"
+              id="zero"
+              title="Zero Fill Right Shift Operator"
+            >
+              >>>
+            </button>
+          </div>
+
+          <hr />
+
+          <h3>Result:</h3>
+
+          <div id="result5"></div>
+        </div>
+      </div>
+
+      <div id="ternary">
+        <div id="card">
+          <h2>6. Ternary Operations</h2>
+          <hr />
+          <label for="num1">Enter First Number:</label>
+          <input type="number" id="k" />
+          <br />
+          <label for="num2">Enter Second Number:</label>
+          <input type="number" id="l" />
+
+          <div id="operations">
+            <button class="opretorsBtn" id="tern" title="Ternary Operator">
+              ?
+            </button>
+          </div>
+
+          <hr />
+
+          <h3>Result:</h3>
+
+          <div id="result6"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        &copy; 2024 JavaScript Practices | All Rights Reserved By
+        <a href="https://www.linkedin.com/in/ajay-dhangar">Ajay Dhangar</a>
+      </p>
+    </footer>
+  </body>
+</html>

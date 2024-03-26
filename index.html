@@ -3,272 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Practices for Operators</title>
+    <title>Welcome | JavaScript Practices</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./src/index.js"></script>
   </head>
   <body>
     <header class="header">
-      <h1>Welcome To JavaScript Practices for Operators</h1>
+      <h1>Welcome To JavaScript Practices</h1>
     </header>
 
-    <div id="opretors">
-      <div id="arithmetic">
-        <div id="card">
-          <h2>1. Arithmetic Operations</h2>
-          <hr />
-          <label for="num1">Enter First Number:</label>
-          <input type="number" id="a" />
-          <br />
-          <label for="num2">Enter Second Number:</label>
-          <input type="number" id="b" />
-
-          <div id="operations">
-            <button class="opretorsBtn" id="add" title="Addition Operator">
-              Add
-            </button>
-            <button class="opretorsBtn" id="sub" title="Subtraction Operator">
-              Subtract
-            </button>
-            <button
-              class="opretorsBtn"
-              id="mul"
-              title="Multiplication Operator"
-            >
-              Multiply
-            </button>
-            <button class="opretorsBtn" id="div" title="Division Operator">
-              Divide
-            </button>
-            <button class="opretorsBtn" id="mod" title="Modulus Operator">
-              Modulus
-            </button>
+    <main class="main">
+      <section class="section">
+        <h2>JavaScript Practices</h2>
+        <p>
+          This is a simple project to practice JavaScript. Here you can find
+          different JavaScript practices. visit the below link to see the list 
+          of practices.
+        </p>
+        
+        <div class="container">
+          <div class="cards">
+            <div class="card">
+              <a href="./practices/01-HelloWorld/index.html">
+                <h3>01 HelloWorld</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/02-Variables/index.html">
+                <h3>02 Variables</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/03-DataTypes/index.html">
+                <h3>03 DataTypes</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/04-Operators/index.html">
+                <h3>04 Operators</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/05-ConditionalStatements/index.html">
+                <h3>05 ConditionalStatements</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/06-Loops/index.html">
+                <h3>06 Loops</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/07-Functions/index.html">
+                <h3>07 Functions</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/08-Arrays/index.html">
+                <h3>08 Arrays</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/09-Objects/index.html">
+                <h3>09 Objects</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/10-Classes/index.html">
+                <h3>10 Classes</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/11-Modules/index.html">
+                <h3>11 Modules</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/12-Events/index.html">
+                <h3>12 Events</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/13-ErrorHandling/index.html">
+                <h3>13 ErrorHandling</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/14-JSON/index.html">
+                <h3>14 JSON</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/15-LocalStorage/index.html">
+                <h3>15 LocalStorage</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/16-SessionStorage/index.html">
+                <h3>16 SessionStorage</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/17-Date/index.html">
+                <h3>17 Date</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/18-Math/index.html">
+                <h3>18 Math</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/19-RegExp/index.html">
+                <h3>19 RegExp</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/20-Debugging/index.html">
+                <h3>20 Debugging</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/21-Performance/index.html">
+                <h3>21 Performance</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/22-patterns/index.html">
+                <h3>22 patterns</h3>
+              </a>
+            </div>
+            <div class="card">
+              <a href="./practices/23-InterviewQuestions/index.html">
+                <h3>23 InterviewQuestions</h3>
+              </a>
+              </div>
           </div>
-
-          <hr />
-
-          <h3>Result:</h3>
-
-          <div id="result1"></div>
         </div>
-      </div>
-
-      <div id="comparison">
-        <div id="card">
-          <h2>2. Comparison Operations</h2>
-          <hr />
-          <label for="num1">Enter First Number:</label>
-          <input type="number" id="c" />
-          <br />
-          <label for="num2">Enter Second Number:</label>
-          <input type="number" id="d" />
-
-          <div id="operations">
-            <button class="opretorsBtn" id="eq" title="Equal Operator">
-              ==
-            </button>
-            <button class="opretorsBtn" id="neq" title="Not Equal Operator">
-              !=
-            </button>
-            <button class="opretorsBtn" id="gt" title="Greater Than Operator">
-              >
-            </button>
-            <button class="opretorsBtn" id="lt" title="Less Than Operator">
-              <
-            </button>
-            <button
-              class="opretorsBtn"
-              id="gte"
-              title="Greater Than or Equal Operator"
-            >
-              >=
-            </button>
-            <button
-              class="opretorsBtn"
-              id="lte"
-              title="Less Than or Equal Operator"
-            >
-              <=
-            </button>
-            <button class="opretorsBtn" id="seq" title="Strict Equal Operator">
-              ===
-            </button>
-            <button
-              class="opretorsBtn"
-              id="sneq"
-              title="Strict Not Equal Operator"
-            >
-              !==
-            </button>
-          </div>
-
-          <hr />
-
-          <h3>Result:</h3>
-
-          <div id="result2"></div>
-        </div>
-      </div>
-
-      <div id="logical">
-        <div id="card">
-          <h2>3. Logical Operations</h2>
-          <hr />
-          <label for="num1">Enter First Number:</label>
-          <input type="number" id="e" />
-          <br />
-          <label for="num2">Enter Second Number:</label>
-          <input type="number" id="f" />
-
-          <div id="operations">
-            <button class="opretorsBtn" id="and" title="Logical AND Operator">
-              AND
-            </button>
-            <button class="opretorsBtn" id="or" title="Logical OR Operator">
-              OR
-            </button>
-            <button class="opretorsBtn" id="not" title="Logical NOT Operator">
-              NOT
-            </button>
-          </div>
-
-          <hr />
-
-          <h3>Result:</h3>
-
-          <div id="result3"></div>
-        </div>
-      </div>
-
-      <div id="assignment">
-        <div id="card">
-          <h2>4. Assignment Operations</h2>
-          <hr />
-          <label for="num1">Enter First Number:</label>
-          <input type="number" id="g" />
-          <br />
-          <label for="num2">Enter Second Number:</label>
-          <input type="number" id="h" />
-
-          <div id="operations">
-            <button class="opretorsBtn" id="as" title="Assignment Operator">
-              =
-            </button>
-            <button
-              class="opretorsBtn"
-              id="addas"
-              title="Addition Assignment Operator"
-            >
-              +=
-            </button>
-            <button
-              class="opretorsBtn"
-              id="subas"
-              title="Subtraction Assignment Operator"
-            >
-              -=
-            </button>
-            <button
-              class="opretorsBtn"
-              id="mulas"
-              title="Multiplication Assignment Operator"
-            >
-              *=
-            </button>
-            <button
-              class="opretorsBtn"
-              id="divas"
-              title="Division Assignment Operator"
-            >
-              /=
-            </button>
-            <button
-              class="opretorsBtn"
-              id="modas"
-              title="Modulus Assignment Operator"
-            >
-              %=
-            </button>
-          </div>
-
-          <hr />
-
-          <h3>Result:</h3>
-
-          <div id="result4"></div>
-        </div>
-      </div>
-
-      <div id="bitwise">
-        <div id="card">
-          <h2>5. Bitwise Operations</h2>
-          <hr />
-          <label for="num1">Enter First Number:</label>
-          <input type="number" id="i" />
-          <br />
-          <label for="num2">Enter Second Number:</label>
-          <input type="number" id="j" />
-
-          <div id="operations">
-            <button class="opretorsBtn" id="andb" title="Bitwise AND Operator">
-              &
-            </button>
-            <button class="opretorsBtn" id="orb" title="Bitwise OR Operator">
-              |
-            </button>
-            <button class="opretorsBtn" id="notb" title="Bitwise NOT Operator">
-              ~
-            </button>
-            <button class="opretorsBtn" id="xorb" title="Bitwise XOR Operator">
-              ^
-            </button>
-            <button class="opretorsBtn" id="left" title="Left Shift Operator">
-              <<
-            </button>
-            <button class="opretorsBtn" id="right" title="Right Shift Operator">
-              >>
-            </button>
-            <button
-              class="opretorsBtn"
-              id="zero"
-              title="Zero Fill Right Shift Operator"
-            >
-              >>>
-            </button>
-          </div>
-
-          <hr />
-
-          <h3>Result:</h3>
-
-          <div id="result5"></div>
-        </div>
-      </div>
-
-      <div id="ternary">
-        <div id="card">
-          <h2>6. Ternary Operations</h2>
-          <hr />
-          <label for="num1">Enter First Number:</label>
-          <input type="number" id="k" />
-          <br />
-          <label for="num2">Enter Second Number:</label>
-          <input type="number" id="l" />
-
-          <div id="operations">
-            <button class="opretorsBtn" id="tern" title="Ternary Operator">
-              ?
-            </button>
-          </div>
-
-          <hr />
-
-          <h3>Result:</h3>
-
-          <div id="result6"></div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <p>
